@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div id="heder">
+        <div class="container">
+            <nav>
+                <h1><span class="highlight">V</span>aishnavi</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+               <p><h2>Hi,I'm <span>vaishnavi</span> Narwade <br>from Ahilyanagar,<br>mharashtra
+           </p></h2>
+            </div>
+            <div class="image-content">
+                <img src="C:\Users\akash\OneDrive\Desktop\vaishu.project\portfolio\portrait-indian-businesswoman-white-background-holding-laptop_665346-22333.avif ">
+            </div>
+        </div>
+    </div>
+   <!---------------about ------------> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p> Hello! I am vaishnavi i curruntly pursuing sybcs(Bachalar of computr sciencs)
+        passionate about delevering high-quality work and continuosly learning technogies
+        </p> 
+        
+        
+             <div class="tab-titles"> 
+                    <p class="tab-links active-link" onclick="opentab('sklills')">Sklills</p>
+                    <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="sklills">
+                    <ul>
+                <li><span>frontend</span><br>html,css,jvascript</li>
+                <li><span>backend</span><br>c,core <b>java</b>java</li>
+                <li><span>database</span><br>sql,mysql</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+            <li><span>2024 -current</span><br>class in epl institude</li>
+            <li><span>2025 </span><br>i complete backend languages</li>
+            <li><span>2025</span><br> completed database in college</li>
+                  </ul>
+        </div>
+        <div class="tab-contents"id="education">
+            <ul>
+                <li><span>2025</span> (sybcs)</li>
+            </ul>
+                  </div>
+             </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!---------------services---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">my services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>frontend</h2>
+                <p>frontend is a user-facing partof an application(ui/ux)</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>backend</h2>
+                <p> backend  is streucture of the logic and processing part of an application</p>
+               <a href="#">learn more</a>
+              </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>database</h2>
+                <p> store and retrieves application data</p>
+                <a href="#">learn more</a>
+                </div>
+         </div>
+    </div>
+</div>
+</div>
+
+
+<!--------------portfolio------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+   <div class="work">
+ <img src="istockphoto-1334906074-612x612.jpg">
+ <div class="layer">
+    <h3>social media app</h3>
+    <p>the app is connects you to the talented pepole<br> around the words</p>
+    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+ </div>
+   </div>
+   <div class="work">
+    <img src=" website-development-banner_33099-1687.jpg ">
+    <div class="layer">
+        <h3>html project </h3>
+        <p> user can coding</p>
+        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+    </div>
+    </div>
+   <div class="work">
+    <img src="">
+    <div class="layer">
+        <h3>   web desing project </h3>
+        <p> user  go to website</p>
+        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+  </div>
+    <a href="#"class="btn">see more</a>
+</div>
+</div>
+ <!--------------contact------------->
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">contact me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>vaishnavi23@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>8799909945</p>
+            <div class="social-icons">
+            <a href="https://www.fecebook.com "> <i class="fa-brands fa-facebook"></i></a>
+           <a href="https://in.linkedin "> <i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://in.github.com "> <i class="fa-brands fa-github"></i></a>
+      </div>
+      <a href="Desktop" download class="btn  btn2">Download CV</a>
+    </div>
+<div class="contact-right">
+    <form>
+        <input type="text" name="Name" placeholder="Your name" required>
+        <intput type="email" name="email"  placeholder="Your Email" required>
+        <textarea name="Message"   rows="6"  placeholder="Your Message"></textarea>
+         <button type="submit" class="btn btn2">submit</button>
+         </form>
+      </div>
+    </div>
+</div>
+</div>
+
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+ var sidemenu= document.getElementById("sidemenu");
+
+ function openmenu(){
+    sidemenu.style.right="0";
+ }
+ function closemenu(){
+    sidemenu.style.right="-200px";
+
+ }
+</script>
+</body>
+</html>
